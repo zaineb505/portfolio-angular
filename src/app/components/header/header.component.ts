@@ -37,7 +37,7 @@ import { ThemeService } from '../../theme.service';@Component({
       <div class="nav-content">
         <div class="theme-toggle">
           <button mat-icon-button (click)="toggleTheme()">
-            <mat-icon>{{ themeService.mode() === 'dark' ? 'light_mode' : 'dark_mode' }}</mat-icon>
+            <mat-icon>{{ themeService.mode() === 'dark' ? 'wb_sunny' : 'dark_mode' }}</mat-icon>
           </button>
         </div>
 
@@ -213,7 +213,7 @@ import { ThemeService } from '../../theme.service';@Component({
     .mobile-drawer.dark-mode {
       background: rgba(10, 25, 47, 0.98);
       backdrop-filter: blur(15px);
-      border-left: 1px solid rgba(100, 255, 218, 0.2);
+      border-left: 1px solid rgba(35, 26, 167, 0.46);
     }
 
     .mobile-drawer.mat-drawer-opened {

@@ -7,6 +7,8 @@ import { HistoryComponent } from './components/history/history.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ExpertiseComponent } from './components/expertise/expertise.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { CertificationsComponent } from './components/certifications/certifications.component';
+
 import { ThemeService } from './theme.service';
 
 @Component({
@@ -20,6 +22,7 @@ import { ThemeService } from './theme.service';
     HeroComponent, 
     ProjectsComponent, 
     ContactComponent,
+    CertificationsComponent,
     RouterOutlet
   ],
   template: `
@@ -29,6 +32,7 @@ import { ThemeService } from './theme.service';
       <app-expertise />
       <app-history />
       <app-projects />
+      <app-certifications />
       <app-contact />
     </main>
     
